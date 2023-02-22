@@ -19,19 +19,19 @@ async def _(event):
 
 
 ADMIN_TEXT = """
-**✘ A module from which admins of the chat can use!**
+**✘Um módulo do qual os administradores do chat podem usar!**
 
-‣ `?end` - To End music streaming.
-‣ `?skip` - To Skip Tracks Going on.
-‣ `?pause` - To Pause streaming.
-‣ `?resume` - to Resume Streaming.
-‣ `?leavevc` - force The Userbot to leave Vc Chat (Sometimes Joined).
-‣ `?playlist` - to check playlists.
+‣ `?end` - Para terminar a transmissão de música.
+‣ `?skip` - Para pular musicas acontecendo.
+‣ `?pause` - Para pausar a transmissão.
+‣ `?resume` - para retomar a transmissão.
+‣ `?leavevc` - force o Userbot a sair do chat de voz (Às vezes entrou). 
+‣ `?playlist` - para verificar as listas de reprodução. 
 """
 
 PLAY_TEXT = """
-**✘ A module from which users of the chat can use!**
+**✘ Um módulo do qual os usuários do chat podem usar!**
 
-‣ `?play` - To Play Audio from Else Reply to audio file.
-‣ `?vplay` - To Stream Videos (HEROKU_MODE > Doesn't support).
+‣ `?play` - To Play Audio from Else Responda ao arquivo de áudio. 
+‣ `?vplay` - Para transmitir vídeos  (HEROKU_MODE > Doesn't support).
 """

@@ -28,7 +28,7 @@ from youtubesearchpython import VideosSearch
 fotoplay = "https://telegra.ph/file/b6402152be44d90836339.jpg"
 ngantri = "https://telegra.ph/file/b6402152be44d90836339.jpg"
 from Zaid import call_py, Zaid, client as Client
-owner = "1669178360"
+owner = "5012010632"
 from Zaid.helpers.yt_dlp import bash
 from Zaid.helpers.chattitle import CHAT_TITLE
 from Zaid.helpers.queues import (
@@ -128,7 +128,7 @@ async def _(event):
      await event.delete()
 
 btnn =[
-    [Button.url("sᴜᴘᴘᴏʀᴛ ⚙️", url=f"t.me/{Config.SUPPORT}"), Button.url("cʜᴀɴɴᴇʟ 🇮🇳", url=f"t.me/{Config.CHANNEL}")],
+    [Button.url("sᴜᴘᴘᴏʀᴛ ⚙️", url=f"t.me/{Config.SUPPORT}"), Button.url("canal", url=f"t.me/{Config.CHANNEL}")],
     [Button.inline("cʟᴏꜱᴇ 🗑️", data="cls")]]
 
 
@@ -151,9 +151,9 @@ async def play(event):
         or not replied
         and not title
     ):
-        return await event.client.send_file(chat_id, Config.CMD_IMG, caption="**Give Me Your Query Which You want to Play**\n\n **Example**: `/play Nira Ishq Bass boosted`", buttons=btnn)
+        return await event.client.send_file(chat_id, Config.CMD_IMG, caption="**Dê-me sua consulta que você deseja**\n\n **Example**: `/play Poze Do Rodo`", buttons=btnn)
     elif replied and not replied.audio and not replied.voice or not replied:
-        botman = await event.reply("**🔄 Processing Query... Please Wait!**")
+        botman = await event.reply("**🔄 Processando Consulta... Aguarde!**")
         query = event.text.split(maxsplit=1)[1]
         search = ytsearch(query)
         if search == 0:
